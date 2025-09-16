@@ -1,9 +1,9 @@
 {
   "features": {
     "ghcr.io/devcontainers/features/common-utils:2": {
-      "version": "2.4.3",
-      "resolved": "ghcr.io/devcontainers/features/common-utils@sha256:e9e1d402031416ed5fc500f242c27ffa1043a27b5ba612e6596ea62503c8ae70",
-      "integrity": "sha256:e9e1d402031416ed5fc500f242c27ffa1043a27b5ba612e6596ea62503c8ae70"
+      "version": "2.5.4",
+      "resolved": "ghcr.io/devcontainers/features/common-utils@sha256:00fd45550f578d9d515044d9e2226e908dbc3d7aa6fcb9dee4d8bdb60be114cf",
+      "integrity": "sha256:00fd45550f578d9d515044d9e2226e908dbc3d7aa6fcb9dee4d8bdb60be114cf"
     }
   }
 }

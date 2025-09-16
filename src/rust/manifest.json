@@ -1,14 +1,18 @@
 {
-	"version": "1.0.13",
+	"version": "2.0.2",
 	"variants": [
+		"trixie",
 		"bookworm",
-		"buster",
 		"bullseye"
 	],
 	"build": {
-		"latest": "bookworm",
+		"latest": "trixie",
 		"rootDistro": "debian",
 		"architectures": {
+			"trixie": [
+				"linux/amd64",
+				"linux/arm64"
+			],
 			"bookworm": [
 				"linux/amd64",
 				"linux/arm64"
@@ -16,23 +20,20 @@
 			"bullseye": [
 				"linux/amd64",
 				"linux/arm64"
-			],
-			"buster": [
-				"linux/amd64"
 			]
 		},
 		"tags": [
 			"rust:${VERSION}-${VARIANT}"
 		],
 		"variantTags": {
-			"buster": [
-				"rust:${VERSION}-1-buster"
+			"trixie": [
+				"rust:${VERSION}-1",
+				"rust:${VERSION}-1-trixie"
 			],
 			"bullseye": [
 				"rust:${VERSION}-1-bullseye"
 			],
 			"bookworm": [
-				"rust:${VERSION}-1",
 				"rust:${VERSION}-1-bookworm"
 			]
 		}
